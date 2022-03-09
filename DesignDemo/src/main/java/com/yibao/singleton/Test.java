@@ -20,5 +20,12 @@ public class Test {
         Singleton2 instance3 = Singleton2.getInstance();
         System.out.println(instance2 == instance3);   // ----->>>> true
 
+        System.out.println("---------------------------------------------------------");
+
+        // 2.单例模式 -- 静态代码块方式 --- 检测创建的是否为同一对象
+        Singleton3 instance4 = Singleton3.getInstance();
+        Singleton3 instance5 = Singleton3.getInstance();
+        System.out.println(instance4 == instance5);   // ----->>>> true
+
     }
 }
