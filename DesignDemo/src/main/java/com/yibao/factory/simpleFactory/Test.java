@@ -13,5 +13,12 @@ public class Test {
         Coffee coffee = shop.orderCoffee("Latte");
         // 3.拿咖啡
         System.out.println(coffee.getName());
+
+        // ---------------------------------------------
+
+        // 4.简单工厂的扩展 -- 静态工厂
+        CoffeeStaticShop shop1 = new CoffeeStaticShop();
+        Coffee coffee1 = shop1.orderCoffee("Americano");
+        System.out.println(coffee1.getName());
     }
 }
