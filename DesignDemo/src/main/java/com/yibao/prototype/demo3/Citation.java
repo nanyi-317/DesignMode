@@ -1,12 +1,14 @@
 package com.yibao.prototype.demo3;
 
+import java.io.Serializable;
+
 /**
  * 原型类 --- 奖状 --- 深克隆
  *
  * @author yibao
  * @create 2022 -03 -10 -17:33
  */
-public class Citation implements Cloneable {
+public class Citation implements Cloneable , Serializable {
     // 对象
     private Student student;
 
