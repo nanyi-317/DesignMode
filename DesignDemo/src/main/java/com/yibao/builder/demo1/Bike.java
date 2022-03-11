@@ -1,4 +1,4 @@
-package com.yibao.builder;
+package com.yibao.builder.demo1;
 
 /**
  * 自行车

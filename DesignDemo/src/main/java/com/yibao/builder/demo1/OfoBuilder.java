@@ -1,4 +1,4 @@
-package com.yibao.builder;
+package com.yibao.builder.demo1;
 
 /**
  * 具体构建者 --- 小黄单车
