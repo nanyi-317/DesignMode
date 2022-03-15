@@ -8,6 +8,6 @@ package com.yibao.bridge;
 public class Test {
     public static void main(String[] args) {
         OperatingSystem system = new Mac(new AviFile());
-        system.play("咒术回站");
+        system.play("咒术回战");
     }
 }
